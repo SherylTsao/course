@@ -59,6 +59,7 @@ public class StudentsServiceImpl implements StudentsService {
 		}
 
 		
+		
 		// 用Entity型態new出建構方法
 		Students students = new Students(request.getStuName(), request.getStuNumber());
 
