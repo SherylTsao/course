@@ -58,6 +58,7 @@ public class StudentsServiceImpl implements StudentsService {
 			return new StudentsDataResponse(RtnCode.NOT_FOUND.getMessage());
 		}
 
+		
 		// 用Entity型態new出建構方法
 		Students students = new Students(request.getStuName(), request.getStuNumber());
 
